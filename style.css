@@ -1,0 +1,96 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 100px;
+    background-color: #FFE4C4;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    background-color:rgb(253, 239, 213);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+img{
+    cursor: pointer;
+    padding: 0px 20px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+.nav ul li{
+    margin-right: 30px;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li:hover ul{
+    display: block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+    display: inline-block;
+    transition: .5s;
+}
+.nav ul li a:hover{
+    background-color: bisque;
+}
+.nav ul li ul{
+    width: 100px;
+    display: none;
+    position: absolute;
+    background-color: #ec7309;
+    left: 0;
+    text-align: left;
+}
+.nav ul li ul li{
+    display: block;
+}
+.nav ul li ul li a{
+    display: block;
+    color: white;
+}
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.signin{
+background-color: #ec7309;
+color: #ffff;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+.info{
+    max-width: 100%;
+    padding-top: 30px;
+}
+.info h2{
+    font-size: 60px;
+    font-family: sans-serif;
+    padding-top: 80px;
+   
+}
+.info h6{
+    font-size: 20px;
+    font-family: sans-serif;
+   
+}
+.content-right{
+    
+    width: 50%;
+    align-items: right;
+    padding: 0px 30px;
+    padding-top: 30px;
+}
